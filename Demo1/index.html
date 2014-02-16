@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.custom.min.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />			
+		<title>AdWall Testing </title>
+	</head>
+	<body>
+		<div id="adWall"></div>
+		<div style="display:none;" id="twitter-ad">
+			<div style="padding:0;margin:0;height:100%">
+				<div class="tweet-header row">
+					<img alt="twitter-logo" src="images/twitter.png" height="40%" style="display: inline-block;">
+					<div style="display: inline-block;vertical-align:middle;">{{ stream }}</div>
+				</div>
+				<div class="tweet-content row" style="padding:0;margin:0">
+					<div class="tweet-by">
+						<strong>{{ user }}</strong> says
+					</div>
+					<div class="tweet-body">
+						"{{ message }}"
+					</div> 
+					<div class="tweet-users" >
+						<div class="users">
+							<img src="images/user1.png" width="100">
+							<img src="images/user2.png" width="100">
+							<img src="images/user3.png" width="100">
+							<p>Just now via Twitter<p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<footer>
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/underscore.js"></script>
+		<script src="js/freewall.js"></script>
+		<script src="main.js"></script>
+	</footer>
+</html>
