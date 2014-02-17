@@ -1,0 +1,92 @@
+body, html {
+	width : 100%;
+	overflow:hidden;
+    height:100%;
+    font-family: 'Prosto One', cursive;
+    font-family: 'Expletus Sans', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-size:30px;
+}
+
+.socialcontent {background:url('./img/bg-hor-trans.png') no-repeat center center; max-height:50%; padding:1% 0;}
+ .twitter{background:url('./img/twitter-hor-trans.png') no-repeat center center}
+ .insta{background:url('./img/insta-hor-trans.png') no-repeat center center}
+
+.global-header {min-height:8%; font-size: 150%;    background-color: #1E2225;    opacity: 0.4;  }
+.global-footer {min-height:25%; font-size: 150%; padding:0; margin:0;}
+
+ .global-content {min-height:67%; overflow:hidden; font-size: 100%;}
+
+ /*DEMO TEMPS */
+ .alpha {background-color:rgb(210,51,110)}
+ .beta {background-color:rgb(157,199,254)}
+ .charlie {background-color:rgb(254,203,129)}
+ .delta {background-color:rgb(155,215,158)}
+  .content {min-height:50% !important}
+/*DEMO TEMPS */
+
+ 
+  .header{
+  }	
+  .logo{
+    position:absolute;
+    right:0px;
+  }
+  .title{
+    color: white;
+  }
+ 
+ 
+ 
+ .user{
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    font-size:70%
+  }
+  .tweet{
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+    font-size:160%;
+    line-height:110%
+
+  }
+ 
+
+  .social{
+    margin-top: 4%;
+    text-align: center;
+ }
+ 
+   .profile{
+    margin:0.5%;
+    padding: 0.5%;
+   float:left;
+  }
+  
+  
+  .profile img  {    
+     max-height:6%;
+    width:auto;
+ }
+  
+
+  
+  
+  p.timestamp{
+    color: white;
+    font-size:40%;
+  } 
+
+
+ 
+}
+
+
+
+
+
+
+
+
