@@ -3,8 +3,8 @@ body, html {
 	overflow:hidden;
     height:100%;
     font-family: 'Prosto One', cursive;
-    font-family: 'Expletus Sans', cursive;
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Expletus Sans', cursive;
+    font-family: 'Open Sans', sans-serif;*/
     font-size:30px;
 }
 
@@ -25,9 +25,8 @@ body, html {
   .content {min-height:50% !important}
 /*DEMO TEMPS */
 
- 
-  .header{
-  }	
+
+  
   .logo{
     position:absolute;
     right:0px;
