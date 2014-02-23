@@ -25,9 +25,9 @@ $(function() {
 	
 	];
 
-	      _.templateSettings = {
+	_.templateSettings = {
 		interpolate : /\{\{([\s\S]+?)\}\}/g
-	      };
+	};
 
 	var setRandomContent = function(noElements){
 		var html = '';

@@ -25,9 +25,9 @@ $(function() {
 	
 	];
 
-	      _.templateSettings = {
+	_.templateSettings = {
 		interpolate : /\{\{([\s\S]+?)\}\}/g
-	      };
+	};
 
 	var setRandomContent = function(noElements){
 		var html = '';
@@ -112,7 +112,6 @@ $(function() {
 					if (animationRotateFlag){
 						$(this).css({"transform": "rotate("+now+"deg)"});
 					}
-					$(this).css({"opacity" : 0.0});
 				},
 				complete : function(){
 					$(this).html(
